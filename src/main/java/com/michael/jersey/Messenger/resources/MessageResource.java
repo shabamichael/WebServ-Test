@@ -21,6 +21,8 @@ public class MessageResource {
 	@GET
 	@Produces(MediaType.APPLICATION_XML)
 	public List<Message> getMessages() {
+		
+		
 		System.out.println("Message List");
 		return messageService.getAllMessages();
 	}

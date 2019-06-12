@@ -13,7 +13,7 @@ public class Message {
 	private Date created;
 	private String author;
 	
-	
+	//Default Constructor
 	public Message() {
 		
 	}
